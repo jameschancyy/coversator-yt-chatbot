@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="title">Conversator: a Mini YouTube Chatbot</div>
+        <div id="tab-bar">
+            <button class="tab-button active" id="chat-button">Chat</button>
+            <button class="tab-button" id="settings-button">Settings</button>
+        </div>
+        <div class="tab-content active" id="chat-tab">
+            <div id="chat"></div>
+            <div id="input-button">
+                <input id="input" type="text" placeholder="Type your message here">
+                <button id="button">Send</button>
+            </div>            
+        </div>
+        <div class="tab-content" id="settings-tab">
+            <label for="model-input" style="color:rgb(232, 234, 237)">Select LLM:</label><br>
+            <select id="model-input">
+                <option disabled>Google</option>
+                <option value="gemini-pro">gemini-pro</option>
+                <option disabled>OpenAI</option>
+                <option value="gpt-3.5-turbo">gpt-3.5-turbo</option>
+                <option value="gpt-3.5-turbo-1106" selected>gpt-3.5-turbo-1106</option>
+                <option value="gpt-3.5-turbo-16k">gpt-3.5-turbo-16k</option>
+                <option value="gpt-4">gpt-4</option>
+                <option value="gpt-4-0613">gpt-4-0613</option>
+                <option value="gpt-4-1106-preview">gpt-4-1106-preview</option>
+                <option value="gpt-4-32k">gpt-4-32k</option>
+                <option value="gpt-4-32k-0613">gpt-4-32k-0613</option>
+            </select>
+            <label for="apikey-input" style="color:rgb(232, 234, 237)">Your API Key:</label><br>
+            <input id="apikey-input" type="password" placeholder="Insert API Key">
+            <button id="save-button">Save</button>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
