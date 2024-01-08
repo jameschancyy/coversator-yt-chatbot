@@ -38,13 +38,13 @@ To use Conversator, follow these steps:
 - Type your message in the input box and click on the send button
 - The assistant will reply to your message and start a conversation with you
 
-### Known Issues
+## Known Issues
 
 - (Gemini Pro) Sometimes the AI refuses to answer the question when asked about something which appears rarely in the video transcript. (E.g. I don't have enough information from the context provided to answer the question.)
 - As of right now I still don't have access to an OpenAI API key, so I have not tested using the extension with GPT-4 or GPT-3.5 Turbo (pls tell me if it works lmao)
 - Bug reports are greatly appreciated!
 
-### Future Work
+## Future Work
 
 - Coming soon on Chrome Web Store
 - Support for other browsers
@@ -58,7 +58,7 @@ To use Conversator, follow these steps:
 - pls help
 
 
-### References used
+## References used
 
 - LangChain.js Documentation
 - Get the view count of YouTube Video (without api key) and title and anything else (https://dev.to/wimdenherder/get-the-view-count-of-youtube-video-without-api-key-3gp0)
