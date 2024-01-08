@@ -19,11 +19,11 @@ Please see **Build** section below.
 
 ## Build
 
--After cloning this repo, simply run:
+- After cloning this repo, simply run:
 ```npm install```
--Then build with:
+- Then build with:
 ```npm run build```
-Open Chrome and go to `chrome://extensions`
+- Open Chrome and go to `chrome://extensions`
 - Enable developer mode by toggling the switch on the top right corner
 - Click on `Load unpacked` and select the "dist" folder to load the extension
 
